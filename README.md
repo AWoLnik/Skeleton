@@ -1,5 +1,5 @@
-#Skeleton
-##For the Ivanti challenge at YHack 2018
+# Skeleton
+## For the Ivanti challenge at YHack 2018
 
 Skeleton aims to improve remote GUI performance by simplifying frames to their "skeletons" that are relevant for IT professionals, avoiding the need for video or bitmap streaming. The tool accomplishes this by using a deep convolutional neural network to identify UI features in frames, and optical character recognition to pull text from frames. These essential features are then transmitted in a small JSON array, and reconstructed into a minimal GUI on the remote agent's desktop.
 
