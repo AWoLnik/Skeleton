@@ -3,7 +3,7 @@
 
 ![predictions](/predictions.png)
 
-Skeleton aims to improve remote GUI performance by simplifying frames to their "skeletons" that are relevant for IT professionals, avoiding the need for video or bitmap streaming. The tool accomplishes this by using a deep convolutional neural network to identify UI features in frames, and optical character recognition to pull text from frames. These essential features are then transmitted in a small JSON array, and reconstructed into a minimal GUI on the remote agent's desktop.
+Skeleton aims to improve remote GUI performance by simplifying frames to their "skeletons" that are relevant for IT professionals, avoiding the need for video or image streaming. The tool accomplishes this by using a deep convolutional neural network to identify UI features in frames, and optical character recognition to pull text from frames. These essential features are then transmitted in a small JSON array, and reconstructed into a minimal GUI on the remote agent's desktop.
 
 The project could certainly benefit from further training on a better data set, and implementation of interactivity in the agent GUI. This is clearly a work-in-progress from a hackathon.
 
